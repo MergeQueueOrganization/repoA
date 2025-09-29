@@ -1,0 +1,12 @@
+name: Merge queue placeholder
+
+on:
+  merge_group: {}   # runs only for the merge queue
+
+jobs:
+  mq-placeholder:
+    name: mq-placeholder          # <-- this is the check name you'll require
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: echo "OK - merge queue placeholder passed"
