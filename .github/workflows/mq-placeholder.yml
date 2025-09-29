@@ -2,7 +2,7 @@ name: Merge queue placeholder
 
 on:
   merge_group: {}   # runs only for the merge queue
-
+  workflow_dispatch: {}
 jobs:
   mq-placeholder:
     name: mq-placeholder          # <-- this is the check name you'll require
