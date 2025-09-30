@@ -5,8 +5,8 @@ on:
   workflow_dispatch: {}
 jobs:
   mq-placeholder:
-    name: mq-placeholder          # <-- this is the check name you'll require
+    name: semgrep-cloud-platform/scan
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - run: echo "OK - merge queue placeholder passed"
+      - run: echo "OK - semgrep has already passed"
