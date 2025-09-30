@@ -3,6 +3,7 @@ name: Merge queue placeholder
 on:
   merge_group: {}   # runs only for the merge queue
   workflow_dispatch: {}
+  pull_request: {}
 jobs:
   mq-placeholder:
     name: semgrep-cloud-platform/scan
