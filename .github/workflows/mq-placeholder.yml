@@ -4,8 +4,8 @@ on:
   merge_group: {}   # runs only for the merge queue
   workflow_dispatch: {}
 jobs:
-  mq-placeholder:
-    name: semgrep-cloud-platform/scan
+  semgrep-pass:
+    name: semgrep-pass
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
