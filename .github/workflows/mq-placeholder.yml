@@ -2,6 +2,7 @@ name: Merge queue placeholder
 
 on:
   merge_group: {}   # runs only for the merge queue
+  pull_request: {}   # runs only for pull requests
   workflow_dispatch: {}
 jobs:
   mq-placeholder:
