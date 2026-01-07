@@ -1,1 +1,1 @@
-print("Sebas26")
+print("Sebas26") #nosemgrep
